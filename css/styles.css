@@ -132,7 +132,7 @@ img {
 /* features section  */
 .features-section {
   padding: 120px 0;
-  flex-basis: calc((100% - 3 * 24px) / 4)
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .features-section-title {
   font-weight: 500;
@@ -229,7 +229,7 @@ img {
   background-color: var(--primarydark-color);
   padding: 100px 0;
 }
-.footer-logo{
+.footer-logo {
   margin-bottom: 16px;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -251,10 +251,10 @@ img {
 }
 
 /* portfolio.html */
-.maincontent-section{
+.maincontent-section {
   padding: 96px 0 120px 0;
 }
-.button-list{
+.button-list {
   display: flex;
   justify-content: center;
   gap: 24px;
@@ -281,13 +281,13 @@ img {
   border: 1px solid transparent;
 }
 /* gallery elements  */
-.projects-list{
+.projects-list {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
 }
-.company-projects{
+.company-projects {
   width: calc((100% - 48px) / 3);
 }
 .project-name {
@@ -304,7 +304,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--primarybody-color);
 }
-.project-info{
+.project-info {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;

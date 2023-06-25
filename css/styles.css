@@ -37,6 +37,7 @@ img{
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primarybrand-color);
+  display: inline-block;
 }
 .logo-span {
   color: var(--primarydark-color);
@@ -146,7 +147,7 @@ img{
   gap: 24px;
 }
 .features-item{
-  width: calc((100% - 72px) / 4)
+  flex-basis: calc((100% - 72px) / 4);
 }
 .features-heading-title{
   margin-bottom: 8px;
@@ -160,7 +161,7 @@ img{
 
 /* what are we doing section  */
 .doing-section{
-  margin-bottom: 8px;
+  margin-bottom: 120px;
 }
 .doing-section-title {
   margin-bottom: 72px;
@@ -176,13 +177,21 @@ img{
   gap: 24px;
 }
 .doing-item{
-  width: calc((100% - 48px) / 3);
+  flex-basis: calc((100% - 48px) / 3);
 }
 /* team-section  */
 .team-section {
   background-color: var(--light-text);
+  padding: 120px 0;
 }
+.team-list{
+display: flex;
+gap: 24px;
+}
+
+
 .team-section-title {
+  margin-bottom: 72px;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -192,6 +201,11 @@ img{
 }
 .team-gallery {
   background-color: var(--light-text);
+  flex-basis: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+.jobnames-div{
+  padding: 32px 16px;
 }
 .team-names {
   font-weight: 500;
@@ -199,17 +213,21 @@ img{
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--primarydark-color);
+  text-align: center;
+  margin-bottom: 8px;
 }
 .team-description {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primarybody-color);
+  text-align: center;
 }
 /* footer section */
 
 .footer {
   background-color: var(--primarydark-color);
+  padding: 100px 0;
 }
 .footer-span {
   color: var(--light-text);
@@ -218,6 +236,7 @@ img{
   line-height: 1.5;
   color: var(--light-text);
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
 
 /* portfolio.html */

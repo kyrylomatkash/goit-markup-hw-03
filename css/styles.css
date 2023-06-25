@@ -132,6 +132,7 @@ img {
 /* features section  */
 .features-section {
   padding: 120px 0;
+  flex-basis: calc((100% - 3 * 24px) / 4)
 }
 .features-section-title {
   visibility: hidden;
@@ -160,7 +161,7 @@ img {
 
 /* what are we doing section  */
 .doing-section {
-  margin-bottom: 120px;
+  padding-bottom: 120px;
 }
 .doing-section-title {
   margin-bottom: 72px;
@@ -199,7 +200,6 @@ img {
 }
 .team-gallery {
   background-color: var(--light-text);
-  width: calc((100% - 72px) / 4);
   border: solid;
   border-radius: 0px 0px 4px 4px;
 }
@@ -227,6 +227,17 @@ img {
 .footer {
   background-color: var(--primarydark-color);
   padding: 100px 0;
+}
+.footer-logo{
+  margin-bottom: 16px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primarybrand-color);
+  display: inline-block;
 }
 .footer-span {
   color: var(--light-text);

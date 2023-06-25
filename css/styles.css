@@ -20,8 +20,6 @@ body {
 }
 img {
   display: block;
-  max-width: 100%;
-  height: auto;
 }
 /* header  */
 .header {
@@ -148,8 +146,8 @@ img {
   gap: 24px;
 }
 .features-item {
-  width: calc ((100% - 72px) / 4);
-  }
+  flex-basis: calc((100% - 72px) / 4);
+}
 .features-heading-title {
   margin-bottom: 8px;
 }
@@ -188,7 +186,7 @@ img {
 .team-list {
   display: flex;
   gap: 24px;
-
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .team-section-title {
@@ -204,7 +202,7 @@ img {
   background-color: var(--light-text);
   border: solid;
   border-radius: 0px 0px 4px 4px;
-  
+  width: calc ((100% - 72px) / 4);
 }
 .jobnames-div {
   padding: 32px 16px;

@@ -12,20 +12,20 @@ body {
   color: var(--primarybody-color);
   background-color: var(--white-text);
 }
-.container{
+.container {
   width: 1158px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
 }
-img{
+img {
   display: block;
 }
 /* header  */
-.header{
-  border-bottom: 1px solid #E7E9FC;
+.header {
+  border-bottom: 1px solid #e7e9fc;
 }
-.header-div{
+.header-div {
   display: flex;
 }
 .logo-text {
@@ -57,11 +57,11 @@ img{
   letter-spacing: 0.02em;
   color: var(--primarydark-color);
 }
-.menu{
+.menu {
   display: flex;
   gap: 40px;
 }
-.menu-item{
+.menu-item {
   color: var(--primarydark-color);
   padding: 24px 0;
 }
@@ -80,7 +80,7 @@ img{
   font-style: normal;
   text-decoration: none;
 }
-.address-list{
+.address-list {
   display: flex;
   gap: 40px;
 }
@@ -130,9 +130,8 @@ img{
 }
 
 /* features section  */
-.features-section{
+.features-section {
   padding: 120px 0;
-
 }
 .features-section-title {
   visibility: hidden;
@@ -142,14 +141,14 @@ img{
   letter-spacing: 0.02em;
   color: var(--primarydark-color);
 }
-.features-list{
+.features-list {
   display: flex;
   gap: 24px;
 }
-.features-item{
+.features-item {
   flex-basis: calc((100% - 72px) / 4);
 }
-.features-heading-title{
+.features-heading-title {
   margin-bottom: 8px;
 }
 .features-p {
@@ -160,7 +159,7 @@ img{
 }
 
 /* what are we doing section  */
-.doing-section{
+.doing-section {
   margin-bottom: 120px;
 }
 .doing-section-title {
@@ -172,11 +171,11 @@ img{
   text-transform: capitalize;
   color: var(--primarydark-color);
 }
-.doing-list{
+.doing-list {
   display: flex;
   gap: 24px;
 }
-.doing-item{
+.doing-item {
   flex-basis: calc((100% - 48px) / 3);
 }
 /* team-section  */
@@ -184,11 +183,10 @@ img{
   background-color: var(--light-text);
   padding: 120px 0;
 }
-.team-list{
-display: flex;
-gap: 24px;
+.team-list {
+  display: flex;
+  gap: 24px;
 }
-
 
 .team-section-title {
   margin-bottom: 72px;
@@ -202,9 +200,10 @@ gap: 24px;
 .team-gallery {
   background-color: var(--light-text);
   flex-basis: calc((100% - 72px) / 4);
+  border: solid;
   border-radius: 0px 0px 4px 4px;
 }
-.jobnames-div{
+.jobnames-div {
   padding: 32px 16px;
 }
 .team-names {
@@ -241,6 +240,9 @@ gap: 24px;
 
 /* portfolio.html */
 .main-button {
+  display: flex;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -248,6 +250,7 @@ gap: 24px;
   letter-spacing: 0.04em;
   color: var(--primarybrand-color);
   background-color: var(--light-text);
+  padding: 12px 24px;
 }
 .main-button:hover,
 .main-button:focus {

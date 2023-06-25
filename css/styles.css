@@ -29,6 +29,7 @@ img{
   display: flex;
 }
 .logo-text {
+  margin-right: 76px;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -39,7 +40,6 @@ img{
 }
 .logo-span {
   color: var(--primarydark-color);
-  margin-right: 76px;
 }
 .link {
   text-decoration: none;
@@ -94,9 +94,12 @@ img{
 
 .hero {
   background-color: var(--primarydark-color);
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .hero-section-title {
+  max-width: 496px;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -104,6 +107,11 @@ img{
   color: var(--white-text);
 }
 .hero-btn {
+  min-width: 169px;
+  display: block;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
   background-color: var(--primarybrand-color);
   font-family: "Roboto", sans-serif;
   font-weight: 500;

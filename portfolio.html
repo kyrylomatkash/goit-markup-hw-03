@@ -10,7 +10,10 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/modern-normalize.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="css/styles.css" />
     <title>WebStudio</title>
   </head>
@@ -49,17 +52,18 @@
       </div>
     </header>
     <main>
-      <section>
-        <h1 hidden>./</h1>
-        <ul class="list">
+      <section class="maincontent-section">
+        <div class="maincontent-div container">
+        <h1 class="visually-hidden">/</h1>
+        <ul class="button-list list">
           <li><button type="button" class="main-button">All</button></li>
           <li><button type="button" class="main-button">Web Site</button></li>
           <li><button type="button" class="main-button">App</button></li>
           <li><button type="button" class="main-button">Design</button></li>
           <li><button type="button" class="main-button">Marketing</button></li>
         </ul>
-        <ul class="list">
-          <li>
+        <ul class="projects-list list">
+          <li class="company-projects">
             <a href="/" class="link">
               <img
                 src="./images/portfolio/img-08.jpg"
@@ -71,7 +75,7 @@
               <p class="project-description">App</p>
             </a>
           </li>
-          <li>
+          <li class="company-projects">
             <a href="/" class="link">
               <img
                 src="./images/portfolio/img-09.jpg"
@@ -83,7 +87,7 @@
               <p class="project-description">Marketing</p>
             </a>
           </li>
-          <li>
+          <li class="company-projects">
             <a href="/" class="link">
               <img
                 src="./images/portfolio/img-10.jpg"
@@ -95,7 +99,7 @@
               <p class="project-description">App</p>
             </a>
           </li>
-          <li>
+          <li class="company-projects">
             <a href="/" class="link">
               <img
                 src="./images/portfolio/img-11.jpg"
@@ -107,7 +111,7 @@
               <p class="project-description">Marketing</p>
             </a>
           </li>
-          <li>
+          <li class="company-projects">
             <a href="/" class="link">
               <img
                 src="./images/portfolio/img-12.jpg"
@@ -119,7 +123,7 @@
               <p class="project-description">Design</p>
             </a>
           </li>
-          <li>
+          <li class="company-projects">
             <a href="/" class="link">
               <img
                 src="./images/portfolio/img-13.jpg"
@@ -131,7 +135,7 @@
               <p class="project-description">Marketing</p>
             </a>
           </li>
-          <li>
+          <li class="company-projects">
             <a href="/" class="link">
               <img
                 src="./images/portfolio/img-14.jpg"
@@ -143,7 +147,7 @@
               <p class="project-description">Design</p>
             </a>
           </li>
-          <li>
+          <li class="company-projects">
             <a href="/" class="link">
               <img
                 src="./images/portfolio/img-15.jpg"
@@ -155,7 +159,7 @@
               <p class="project-description">Web Site</p>
             </a>
           </li>
-          <li>
+          <li class="company-projects">
             <a href="/" class="link">
               <img
                 src="./images/portfolio/img-16.jpg"
@@ -169,6 +173,7 @@
           </li>
         </ul>
       </section>
+    </div>
     </main>
     <!-- Footer section  -->
     <footer class="footer">

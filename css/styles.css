@@ -145,11 +145,13 @@ img{
   display: flex;
   gap: 24px;
 }
+.features-item{
+  width: calc((100% - 72px) / 4)
+}
 .features-heading-title{
   margin-bottom: 8px;
 }
 .features-p {
-  flex-basis: calc((100% - 3 * 24px) / 4);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;

@@ -129,14 +129,27 @@ img{
 }
 
 /* features section  */
-.features-heading-title {
+.features-section{
+  padding: 120px 0;
+
+}
+.features-section-title {
+  visibility: hidden;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--primarydark-color);
 }
+.features-list{
+  display: flex;
+  gap: 24px;
+}
+.features-heading-title{
+  margin-bottom: 8px;
+}
 .features-p {
+  flex-basis: calc((100% - 3 * 24px) / 4);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;

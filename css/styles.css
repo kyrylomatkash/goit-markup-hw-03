@@ -188,7 +188,7 @@ img {
 .team-list {
   display: flex;
   gap: 24px;
-  width: calc((100% - 72px) / 4);
+
 }
 
 .team-section-title {
@@ -204,7 +204,7 @@ img {
   background-color: var(--light-text);
   border: solid;
   border-radius: 0px 0px 4px 4px;
-  width: calc ((100% - 72px) / 4);
+  
 }
 .jobnames-div {
   padding: 32px 16px;
@@ -323,3 +323,4 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}

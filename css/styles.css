@@ -159,13 +159,24 @@ img{
 }
 
 /* what are we doing section  */
+.doing-section{
+  margin-bottom: 8px;
+}
 .doing-section-title {
+  margin-bottom: 72px;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--primarydark-color);
+}
+.doing-list{
+  display: flex;
+  gap: 24px;
+}
+.doing-item{
+  width: calc((100% - 48px) / 3);
 }
 /* team-section  */
 .team-section {

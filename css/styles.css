@@ -6,17 +6,22 @@
   --pressedstate-color: #404bbf;
   --light-text: #f4f4fd;
   --white-text: #ffffff;
+  --accent-color:  #e7e9fc;
 }
 body {
   font-family: "Roboto", sans-serif;
   color: var(--primarybody-color);
   background-color: var(--white-text);
 }
+ul {
+  padding: 0;
+}
 .container {
   width: 1158px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
+  justify-content: center;
 }
 img {
   display: block;
@@ -83,6 +88,7 @@ img {
 .address-list {
   display: flex;
   gap: 40px;
+  padding-left: 332px;
 }
 .address:hover {
   color: var(--pressedstate-color);
@@ -176,7 +182,7 @@ img {
   gap: 24px;
 }
 .doing-item {
-  flex-basis: calc((100% - 48px) / 3);
+  flex-basis: calc ((100% - 48px) / 3);
 }
 /* team-section  */
 .team-section {
@@ -186,7 +192,7 @@ img {
 .team-list {
   display: flex;
   gap: 24px;
-  flex-basis: calc((100% - 72px) / 4);
+  flex-basis: calc ((100% - 72px) / 4);
 }
 
 .team-section-title {
@@ -286,6 +292,7 @@ img {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  padding: 0;
 }
 .company-projects {
   width: calc((100% - 48px) / 3);
@@ -306,8 +313,9 @@ img {
 }
 .project-info {
   padding: 32px 16px;
-  border: 1px solid #e7e9fc;
+  border: 1px solid var(--accent-color);
   border-top: none;
+  width: ((100% - 48px) / 3);
 }
 
 .visually-hidden {

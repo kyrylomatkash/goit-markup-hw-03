@@ -208,7 +208,7 @@ img {
   background-color: var(--light-text);
   border: solid;
   border-radius: 0px 0px 4px 4px;
-  flex-basis: calc((100% - 72px) / 4);
+  flex-basis: ((100% - 3 * 24px) / 4);
 }
 .jobnames-div {
   padding: 32px 16px;

@@ -14,6 +14,7 @@ body {
   background-color: var(--white-text);
 }
 ul {
+  padding: 0;
   margin: 0;
 }
 h1,h2,h3,h4,h5,h6{
@@ -76,9 +77,9 @@ img {
   gap: 40px;
 }
 .menu-item {
+  display: block;
   color: var(--primarydark-color);
   padding: 24px 0;
-  display: block;
 }
 .menu-item:hover,
 .menu-item:focus {

@@ -28,7 +28,6 @@ p{
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  justify-content: center;
 }
 img {
   display: block;
@@ -87,6 +86,7 @@ img {
 }
 .header-address {
   font-style: normal;
+  margin-left: auto;
 }
 .address {
   font-size: 16px;
@@ -95,12 +95,10 @@ img {
   color: var(--primarybody-color);
   font-style: normal;
   text-decoration: none;
-  white-space: nowrap;
 }
 .address-list {
   display: flex;
   gap: 40px;
-  margin-left: 332px;
 }
 .address:hover {
   color: var(--pressedstate-color);
